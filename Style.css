@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #0a0c10;
+    color: #ffffff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+header {
+    background-color: #1e2a38;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #61dafb;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #a9b4c2;
+}
+
+.btn {
+    background-color: #61dafb;
+    color: #1e2a38;
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+section h2 {
+    font-size: 2rem;
+    border-bottom: 2px solid #61dafb;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#sobre p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #a9b4c2;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    background-color: #1e2a38;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+}
+
+.job {
+    margin-bottom: 1.5rem;
+}
+
+.job h3 {
+    font-size: 1.5rem;
+    color: #61dafb;
+}
+
+footer {
+    background-color: #1e2a38;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer h2 {
+    margin-bottom: 1rem;
+}
+
+footer p {
+    font-size: 1.1rem;
+}
+
+footer a {
+    color: #61dafb;
+    text-decoration: none;
+}
